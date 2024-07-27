@@ -1,0 +1,15 @@
+﻿<Window x:Class="Assignment3_ATMApp.AccountManagementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AccountManagementWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Name="AccountDetailsTextBlock" Margin="10" FontWeight="Bold"/>
+            <Button Content="Check Balance" Width="200" Margin="10" Click="CheckBalanceButton_Click"/>
+            <Button Content="Deposit" Width="200" Margin="10" Click="DepositButton_Click"/>
+            <Button Content="Withdraw" Width="200" Margin="10" Click="WithdrawButton_Click"/>
+            <Button Content="Display Transactions" Width="200" Margin="10" Click="DisplayTransactionsButton_Click"/>
+            <Button Content="Exit Account" Width="200" Margin="10" Click="ExitButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
